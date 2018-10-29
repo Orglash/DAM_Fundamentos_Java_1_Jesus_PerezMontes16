@@ -23,7 +23,7 @@ public class Main {
                 if((mes==4||mes==6||mes==9||mes==11)&&(dia>0&&dia<=30)){
                     fecha=true;
                 }else{
-                    if((mes==1||mes==3||mes==5||mes==7||mes==8||mes==10||mes==12)&&(dia>0&&dia<=31){
+                    if((mes==1||mes==3||mes==5||mes==7||mes==8||mes==10||mes==12)&&(dia>0&&dia<=31)){
                         fecha=true;
                     }
                 }
