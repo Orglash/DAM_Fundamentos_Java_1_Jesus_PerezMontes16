@@ -35,5 +35,7 @@ public class Main {
         }else{
             System.out.println("La fecha introducida es incorrecta.");
         }
+        //Cerramos el scanner.
+        sc.close();
     }
 }
