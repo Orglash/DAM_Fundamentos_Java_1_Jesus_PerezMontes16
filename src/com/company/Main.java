@@ -17,7 +17,7 @@ public class Main {
         boolean fecha=false;
         //If para comprobar si los datos introducidos estan dentro del rango aceptado.
         if (año>0){
-            if (mes==2&&(dia>0&&dia<28)){
+            if (mes==2&&(dia>0&&dia<=28)){
                     fecha=true;
             }else{
                 if((mes==4||mes==6||mes==9||mes==11)&&(dia>0&&dia<=30)){
@@ -29,7 +29,7 @@ public class Main {
                 }
             }
         }
-        //Impresion en pantalla del resultado.
+        //Impresión en pantalla del resultado.
         if(fecha){
             System.out.println("La fecha introducida es correcta.");
         }else{
